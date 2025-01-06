@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+i {
+    color: white;
+}
+.bi-people>span {
+    position: absolute;
+    top: 0px;
+    right: 77%;
+}
+.box {
+    display: flex;
+    position: relative;
+}
+.box>p {
+    background-color: green;
+    position:  absolute;
+    left: 450px;
+}
+.box>span {
+    background-color: red;
+    position: absolute;
+    left: 595px;
+}

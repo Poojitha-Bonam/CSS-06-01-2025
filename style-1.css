@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: black;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.item {
+    color: white;
+    padding: 10px;
+    gap: 50px;
+}
+i {
+    color: white;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/9e/e5/a8/9ee5a8649fe5793b265848fb3858da2b.jpg);
+}
